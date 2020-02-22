@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+
+html,
+body {
+  font-family: "Comfortaa";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Krona One";
+  letter-spacing: 0.5vw;
+  color: antiquewhite;
+  padding-top: 20vh;
+  text-align: left;
+  margin: 0;
+  padding-left: 3vw;
+}
+#color {
+  color: black;
+  font-family: "Krona One";
+}
+
+#orange {
+  color: orange;
+  font-family: "Krona One";
+}
+
+.nav {
+  background-color: lightgray;
+  height: 6vh;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(../img/header_pic.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.panel {
+  height: 35vh;
+  width: 100vw;
+  background-color: grey;
+  position: relative;
+}
+
+.panel * {
+  box-sizing: border-box;
+}
+
+.choice {
+  width: 50%;
+  height: 35vh;
+  border: 2px whitesmoke solid;
+  position: absolute;
+}
+
+.panel div:nth-child(1) {
+  right: 0;
+}
+
+.panel div:nth-child(2) {
+  left: 0;
+}
