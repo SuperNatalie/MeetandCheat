@@ -7,6 +7,13 @@ body {
   margin: 0;
   padding: 0;
 }
+h1, h3, p {
+  margin: 2vh;
+  text-align: left;
+}
+ .panel h3, .panel p  {
+   text-align: center;
+ } 
 
 h1 {
   font-family: "Krona One";
@@ -26,6 +33,10 @@ h1 {
   color: orange;
   font-family: "Krona One";
 }
+
+#logo {
+  margin-left: 1vw;
+} 
 
 .nav {
   background-color: lightgray;
@@ -77,24 +88,30 @@ header {
 }
 
 .panel div:nth-child(1) {
-  right: 0;
-}
-
-.panel div:nth-child(2) {
   left: 0;
 }
 
+.panel div:nth-child(2) {
+  right: 0;
+}
+
 .button {
-  color: black;
+  color: whitesmoke;
   opacity: 0.5;
   width: 100%;
   border: 1px solid white;
-  border-radius: 10px;
+ background-color: rgb(16, 16, 63);
   display: inline-block;
   margin: 0 auto;
-  width: 250px;
+  width: 15vw;
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 25px;
   text-align: center;
+position: absolute;
+top: 50%;
+left: 30%;
+box-shadow: 5px 10px black;
+
+
 }
