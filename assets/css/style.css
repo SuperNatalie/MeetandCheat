@@ -83,3 +83,18 @@ header {
 .panel div:nth-child(2) {
   left: 0;
 }
+
+.button {
+  color: black;
+  opacity: 0.5;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 250px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  text-align: center;
+}
