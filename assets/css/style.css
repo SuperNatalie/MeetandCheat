@@ -84,6 +84,15 @@ header {
   background-size: cover;
 }
 
+header_page1 {
+  background-image: url(../img/header_pic.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
 .panel {
   height: 35vh;
   width: 100vw;
