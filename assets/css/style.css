@@ -40,7 +40,7 @@ h1 {
   margin: 2vw;
   color: orange;
   border: 1px black solid;
-  width: 5vw;
+  width: 7vw;
   padding: 1vw;
 }
 
@@ -70,15 +70,6 @@ ul {
 }
 
 header {
-  background-image: url(../img/header_pic.jpg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 40vh;
-  background-position: center;
-  background-size: cover;
-}
-
-header_page1 {
   background-image: url(../img/header_pic.jpg);
   background-repeat: no-repeat;
   width: 100vw;
@@ -151,4 +142,18 @@ table {
 tr th {
   font-weight: bolder;
   font-size: larger;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  right: auto;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.space {
+  height: 50vh;
 }
