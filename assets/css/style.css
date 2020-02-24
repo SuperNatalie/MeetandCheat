@@ -36,18 +36,12 @@ h1 {
   margin: 0;
   padding-left: 3vw;
 }
-#color {
-  color: black;
-  font-family: "Krona One";
-}
-
-#orange {
+.logo {
+  margin: 2vw;
   color: orange;
-  font-family: "Krona One";
-}
-
-#logo {
-  margin-left: 1vw;
+  border: 1px black solid;
+  width: 5vw;
+  padding: 1vw;
 }
 
 .nav {
