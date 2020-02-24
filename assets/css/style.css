@@ -6,9 +6,10 @@ body {
   font-family: "Comfortaa";
   margin: 0;
   padding: 0;
-  
 }
-h1, h3, p {
+h1,
+h3,
+p {
   margin: 2vh;
   text-align: left;
   color: rgb(55, 67, 80);
@@ -17,13 +18,14 @@ h1, h3, p {
 p {
   font-size: 1.8vh;
 }
- .panel h3, .panel p  {
-   text-align: center;
- } 
+.panel h3,
+.panel p {
+  text-align: center;
+}
 
- .panel h3 {
+.panel h3 {
   color: white;
- }
+}
 
 h1 {
   font-family: "Krona One";
@@ -46,7 +48,7 @@ h1 {
 
 #logo {
   margin-left: 1vw;
-} 
+}
 
 .nav {
   background-color: lightgray;
@@ -70,7 +72,7 @@ ul {
 }
 
 .nav li a:hover {
-color: white;
+  color: white;
 }
 
 header {
@@ -108,18 +110,17 @@ header {
   right: 0;
 }
 
- .choice a {
+.choice a {
   position: absolute;
   top: 60%;
   left: 30%;
-
- }
+}
 .button {
   color: whitesmoke;
   opacity: 0.5;
   width: 100%;
   border: 1px solid white;
- background-color: rgb(16, 16, 63);
+  background-color: rgb(16, 16, 63);
   display: inline-block;
   margin: 0 auto;
   width: 15vw;
@@ -128,12 +129,23 @@ header {
   padding: 15px 25px;
   text-align: center;
   box-shadow: 5px 10px black;
- }
+}
 
 .button:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .button:active {
   color: black;
+}
+
+table {
+  width: 90%;
+  border: 1px black solid;
+  text-align: left;
+  margin-left: 2vw;
+}
+tr th {
+  font-weight: bolder;
+  font-size: larger;
 }
