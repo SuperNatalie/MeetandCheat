@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Krona+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap");
 
 html,
 body {
@@ -7,6 +7,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+main {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
 h1,
 h3,
 p {
@@ -16,15 +22,22 @@ p {
 }
 
 p {
-  font-size: 1.8vh;
+  font-size: 2vh;
+  line-height: 3.5vh;
 }
 .panel h3,
 .panel p {
   text-align: center;
+  line-height: 2.8vh;
 }
 
 .panel h3 {
   color: white;
+}
+
+h3 {
+  font-size: 2.8vh;
+  font-weight: 900;
 }
 
 h1 {
@@ -38,15 +51,17 @@ h1 {
 }
 .logo {
   margin: 2vw;
-  color: orange;
-  border: 1px black solid;
-  width: 7vw;
-  padding: 1vw;
+  width: 15vh;
+}
+
+.logo:hover {
+  padding-left: 1.5px;
 }
 
 .nav {
   background-color: lightgray;
   height: 6vh;
+  width: 100vw;
 }
 
 ul {
@@ -63,9 +78,14 @@ ul {
 .nav li a {
   text-decoration: none;
   color: black;
+  text-transform: uppercase;
 }
 
 .nav li a:hover {
+  color: orange;
+}
+
+.nav li a:active {
   color: white;
 }
 
@@ -77,10 +97,12 @@ header {
   background-position: center;
   background-size: cover;
 }
-
+.intro h3 {
+  margin: 5vh;
+}
 .panel {
   height: 35vh;
-  width: 100vw;
+  width: 98vw;
   background-color: grey;
   position: relative;
 }
@@ -92,7 +114,7 @@ header {
 .choice {
   width: 50%;
   height: 35vh;
-  border: 2px whitesmoke solid;
+  border: 10px white solid;
   position: absolute;
 }
 
@@ -110,23 +132,24 @@ header {
   left: 30%;
 }
 .button {
-  color: whitesmoke;
-  opacity: 0.5;
+  color: white;
   width: 100%;
-  border: 1px solid white;
-  background-color: rgb(16, 16, 63);
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(255, 133, 2);
   display: inline-block;
   margin: 0 auto;
   width: 15vw;
+  font-family: "comfortaa";
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 25px;
   text-align: center;
-  box-shadow: 5px 10px black;
+  box-shadow: 3px 3px 6px black;
 }
 
 .button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .button:active {
@@ -156,4 +179,7 @@ footer {
 
 .space {
   height: 50vh;
+}
+
+.picture_page1 {
 }
