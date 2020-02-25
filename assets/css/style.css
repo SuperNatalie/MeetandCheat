@@ -167,7 +167,7 @@ tr th {
   font-size: larger;
 }
 
-.footer {
+footer {
   position: relative;
   bottom: 0;
   top: auto;
@@ -181,5 +181,4 @@ tr th {
   height: 50vh;
 }
 
-.picture_page1 {
-}
+
