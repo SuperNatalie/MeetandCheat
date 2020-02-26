@@ -180,7 +180,6 @@ header {
 
 table {
   width: 90%;
-  border: 1px black solid;
   text-align: left;
   margin-left: 2vw;
 }
@@ -256,3 +255,39 @@ footer {
 .space {
   height: 50vh;
 }
+
+/*Css für Akkordeon*/
+
+#akkordeon:not(:target) .inhalt,
+#akkordeon:not(:target) .hide,
+#akkordeon:target .show {
+  display: none;
+}
+#akkordeon:target .inhalt {
+  display: block;
+}
+
+td {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 20px 1px;
+  margin: 0px 0px 10px;
+  max-width: 20vw;
+}
+
+.show,
+.hide {
+  padding: 10px;
+  background: rgb(254, 164, 0);
+  box-shadow: none !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+.show:hover,
+.hide:hover {
+  background: rgb(255, 214, 118);
+  color: #fff !important;
+  transition: 0.2s all ease-in-out !important;
+}
+
+/*Css für Akkordeon Ende*/
