@@ -15,13 +15,19 @@ main {
 
 h1,
 h3,
-p, li, th, td {
+p,
+li,
+th,
+td {
   margin: 2vh;
   text-align: left;
   color: rgb(55, 67, 80);
 }
 
-p, li, th, td {
+p,
+li,
+th,
+td {
   font-size: 2vh;
   line-height: 3.5vh;
 }
@@ -32,7 +38,7 @@ p, li, th, td {
 }
 
 .panel p {
-  color: gray
+  color: gray;
 }
 .panel h3 {
   color: white;
@@ -59,9 +65,9 @@ h1 {
 }
 
 .logobig {
-margin-left: 14%;
-margin-top: 5vh;
-margin-bottom: 5vh;
+  margin-left: 14%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .logobig:hover {
@@ -74,9 +80,9 @@ margin-bottom: 5vh;
 
 .nav {
   background-color: rgb(73, 0, 92);
-  height: 6vh;
+  max-height: 6vh;
   width: 100vw;
- 
+  transform: translateZ(1);
 }
 
 ul {
@@ -101,7 +107,7 @@ ul {
 }
 
 .nav li a:active {
-  color: white;
+  color: darkgray;
 }
 
 header {
@@ -249,5 +255,3 @@ footer {
 .space {
   height: 50vh;
 }
-
-
