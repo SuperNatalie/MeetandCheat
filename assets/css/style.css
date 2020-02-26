@@ -31,6 +31,9 @@ p, li, th, td {
   line-height: 2.8vh;
 }
 
+.panel p {
+  color: gray
+}
 .panel h3 {
   color: white;
 }
@@ -38,6 +41,7 @@ p, li, th, td {
 h3 {
   font-size: 2.8vh;
   font-weight: 900;
+  color: rgb(255, 133, 2);
 }
 
 h1 {
@@ -69,7 +73,7 @@ margin-bottom: 5vh;
 }
 
 .nav {
-  background-color: lightgray;
+  background-color: rgb(73, 0, 92);
   height: 6vh;
   width: 100vw;
  
@@ -88,12 +92,12 @@ ul {
 
 .nav li a {
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
 .nav li a:hover {
-  color: orange;
+  color: rgb(255, 133, 2);
 }
 
 .nav li a:active {
@@ -114,7 +118,7 @@ header {
 .panel {
   height: 35vh;
   width: 98vw;
-  background-color: grey;
+  background-color: rgb(73, 0, 92);
   position: relative;
 }
 
@@ -179,13 +183,57 @@ tr th {
 }
 
 .picture_page1 {
-  background-image: url(../img/mac_old.jpg);
+  background-image: url(../img/pic2.jpg);
   background-repeat: no-repeat;
-  width: 40vh;
-  height: 60vh;
+  width: 100vw;
+  height: 40vh;
   background-position: center;
-  background-size:contain;
-  margin: 2vw;
+  background-size: cover;
+}
+
+.picture_page2 {
+  background-image: url(../img/pic2.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture_page3 {
+  background-image: url(../img/pic3.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture_page4 {
+  background-image: url(../img/pic4.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture_page5 {
+  background-image: url(../img/pic5.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture_page6 {
+  background-image: url(../img/pic6.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
