@@ -80,7 +80,7 @@ h1 {
 
 .nav {
   background-color: rgb(73, 0, 92);
-  max-height: 6vh;
+  max-height: 8vh;
   width: 100vw;
   transform: translateZ(1);
 }
