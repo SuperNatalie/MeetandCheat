@@ -79,7 +79,7 @@ h1 {
 }
 
 .nav {
-  background-color: 	rgb(74,112,139);
+  background-color: rgb(74, 112, 139);
   max-height: 8vh;
   width: 100vw;
   transform: translateZ(1);
@@ -265,7 +265,6 @@ td {
   max-width: 20vw;
   height: 20vh;
   text-align: left;
-
 }
 
 .show,
@@ -295,8 +294,6 @@ td {
   display: block;
 }
 
-
-
 /*Css für Akkordeon 2 */
 
 #akkordeon2:not(:target) .inhalt,
@@ -308,7 +305,6 @@ td {
   display: block;
 }
 
-
 /*Css für Akkordeon 3 */
 
 #akkordeon3:not(:target) .inhalt,
@@ -317,5 +313,68 @@ td {
   display: none;
 }
 #akkordeon3:target .inhalt {
+  display: block;
+}
+
+#akkordeon4:not(:target) .inhalt,
+#akkordeon4:not(:target) .hide,
+#akkordeon4:target .show {
+  display: none;
+}
+#akkordeon4:target .inhalt {
+  display: block;
+}
+
+#akkordeon5:not(:target) .inhalt,
+#akkordeon5:not(:target) .hide,
+#akkordeon5:target .show {
+  display: none;
+}
+#akkordeon5:target .inhalt {
+  display: block;
+}
+
+#akkordeon6:not(:target) .inhalt,
+#akkordeon6:not(:target) .hide,
+#akkordeon6:target .show {
+  display: none;
+}
+#akkordeon6:target .inhalt {
+  display: block;
+}
+
+#akkordeon7:not(:target) .inhalt,
+#akkordeon7:not(:target) .hide,
+#akkordeon7:target .show {
+  display: none;
+}
+#akkordeon7:target .inhalt {
+  display: block;
+}
+
+#akkordeon8:not(:target) .inhalt,
+#akkordeon8:not(:target) .hide,
+#akkordeon8:target .show {
+  display: none;
+}
+#akkordeon8:target .inhalt {
+  display: block;
+}
+
+#akkordeon9:not(:target) .inhalt,
+#akkordeon9:not(:target) .hide,
+#akkordeon9:target .show {
+  display: none;
+}
+#akkordeon9:target .inhalt {
+  display: block;
+}
+
+#akkordeon10:not(:target) .inhalt,
+#akkordeon10:not(:target) .hide,
+#akkordeon10:target .show {
+  display: none;
+}
+#akkordeon10:target .inhalt {
   display: block;
 }
