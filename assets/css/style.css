@@ -256,18 +256,7 @@ footer {
   height: 50vh;
 }
 
-/*Css für Akkordeon*/
-
-
-
-#akkordeon:not(:target) .inhalt,
-#akkordeon:not(:target) .hide,
-#akkordeon:target .show {
-  display: none;
-}
-#akkordeon:target .inhalt {
-  display: block;
-}
+/*Css für Akkordeon allg*/
 
 td {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -295,4 +284,38 @@ td {
   transition: 0.2s all ease-in-out !important;
 }
 
-/*Css für Akkordeon Ende*/
+/*Css für Akkordeon 1*/
+
+#akkordeon1:not(:target) .inhalt,
+#akkordeon1:not(:target) .hide,
+#akkordeon1:target .show {
+  display: none;
+}
+#akkordeon1:target .inhalt {
+  display: block;
+}
+
+
+
+/*Css für Akkordeon 2 */
+
+#akkordeon2:not(:target) .inhalt,
+#akkordeon2:not(:target) .hide,
+#akkordeon2:target .show {
+  display: none;
+}
+#akkordeon2:target .inhalt {
+  display: block;
+}
+
+
+/*Css für Akkordeon 3 */
+
+#akkordeon3:not(:target) .inhalt,
+#akkordeon3:not(:target) .hide,
+#akkordeon3:target .show {
+  display: none;
+}
+#akkordeon3:target .inhalt {
+  display: block;
+}
