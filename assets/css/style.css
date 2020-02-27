@@ -39,8 +39,20 @@ td {
 }
 
 .panel p {
-  color: gray;
+  color: gray; 
 }
+
+.choice p {
+  color:lightgrey;
+}
+
+#orange {
+  color: rgb(255, 133, 2);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+
 .panel h3 {
   color: white;
 }
@@ -121,12 +133,12 @@ header {
   background-size: cover;
 }
 .intro h3 {
-  margin: 5vh;
+  margin-top: 5vh;
 }
 .panel {
   height: 35vh;
   width: 98vw;
-  background-color: rgb(53, 57, 92);
+  background-color: rgb(74, 112, 139);
   position: relative;
 }
 
