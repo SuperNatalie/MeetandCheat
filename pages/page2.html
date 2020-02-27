@@ -40,7 +40,7 @@
         </tr>
         <tr>
           <td>git init</td>
-          <td>Neues Git-Repository aufsetzen</td>
+          <td>Aus einem vorhandenen Verzeichnis mit Quellcode kann ein Git-Repository generiert werden, indem man das folgende Kommando in diesem Verzeichnis ausführt</td>
           <td>
             <div id="akkordeon11">
                 <id="anker1"></id>
@@ -55,21 +55,21 @@
         </tr>
         <tr>
           <td>git clone</td>
-          <td>lokalen Klon des Repositories erstellen</td>
+          <td>Existierende, entfernte Repositories z.B. auf GitHub können auf den eigenen Rechner geklont werden. Damit kann man direkt loslegen und muss keine Remote-Server einrichten.</td>
           <td>
             <div id="akkordeon12">
                 <id="anker1"></id>
                 <a class="show" href="#akkordeon12">Click to show the gif</a>
                 <a class="hide" href="#anker1">ausblenden</a>
             <div class="inhalt">
-                  <h3>Command git clone</h3> <img src="#" alt="">
+                  <h3>Command git clone</h3> <img src="../assets/img/git_02_clone.gif" alt="">
             </div>
             </div>
                 </td>
         </tr>
         <tr>
           <td>git remote add name url</td>
-          <td>Fügt Repository von url mit name hinzu</td>
+          <td>Damit Git den GitHub-Server kennt, muss er zunächst bekannt gemacht werden. Der GitHub-Server soll “origin” heißen (das ist so üblich) und wird mit diesem Kommando hinzugefügt.</td>
           <td>
             <div id="akkordeon13">
                 <id="anker1"></id>
@@ -77,14 +77,14 @@
                 <a class="hide" href="#anker1">ausblenden</a>
             <div class="inhalt">
                   <h3>Command git remote add name url</h3>   
-            <img src="../assets/img/git_04_add.gif" alt="git add">
+            <img src="../assets/img/git_03_remote_add.gif" alt="git remote add">
         </div>
             </div>
         </td>
         </tr>
         <tr>
           <td>git add datei</td>
-          <td>Fügt einzelne Datei hinzu</td>
+          <td>Verschiebt einzelne Dateien, die du geändert hast, in die Stage, um sie nachher commiten zu können.</td>
           <td>
             <div id="akkordeon14">
                 <id="anker1"></id>
@@ -92,14 +92,14 @@
                 <a class="hide" href="#anker1">ausblenden</a>
             <div class="inhalt">
                   <h3>Command git add datei</h3> 
-                  <img src="#" alt="gitt add datei">
+                  <img src="../assets/img/git_04_add.gif" alt="gitt add ">
             </div>
             </div>
           </td>
         </tr>
         <tr>
           <td>git add .</td>
-          <td>Fügt alle geänderten Dateien hinzu (nur solche Dateien werden dann im commit übernommen)</td>
+          <td>Fügt alle geänderten Dateien zu Stage hinzu (nur solche Dateien werden dann im commit übernommen)</td>
           <td>
             <div id="akkordeon15">
                 <id="anker1"></id>
@@ -114,7 +114,7 @@
         </tr>
         <tr>
           <td>git commit -m "nachricht"</td>
-          <td>Alle geänderten Dateien werden hinzugefügt mit Kommentar, was an den Dateien geändert wurde</td>
+          <td>Alle geänderten Dateien werden in das lokale Repository hinzugefügt mit Kommentar, was an den Dateien geändert wurde, um später gepusht zu werden.</td>
           <td>
             <div id="akkordeon16">
                 <id="anker1"></id>
@@ -122,14 +122,14 @@
                 <a class="hide" href="#anker1">ausblenden</a>
             <div class="inhalt">
                   <h3>Command git commit -n "nachricht"</h3> 
-                  <img src="#" alt="git commit">
+                  <img src="../assets/img/git_05_commit.gif" alt="git commit">
             </div>
             </div>
           </td>
         </tr>
         <tr>
           <td>git push origin master</td>
-          <td>Pusht auf Master-Branch zum Origin-Repository</td>
+          <td>Pusht auf Master-Branch auf GitHub zum Origin-Repository, das dann von anderen wieder geklont oder gepullt werden kann.</td>
           <td>
             <div id="akkordeon17">
                 <id="anker1"></id>
@@ -137,17 +137,28 @@
                 <a class="hide" href="#anker1">ausblenden</a>
             <div class="inhalt">
                   <h3>Command git push origin master</h3> 
-                  <img src="#" alt="git push origin master">
+                  <img src="../assets/img/git_06_push.gif" alt="git push origin master">
+            </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>git pull</td>
+          <td>Um das lokale Repo mit dem Server zu synchonisieren, wird ein pull ausgeführt. Dies sollte auch vor jedem push gemacht werden.</td>
+          <td>
+            <div id="akkordeon17b">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon17b">Click to show the gif</a>
+                <a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command git pull</h3> 
+                  <img src="#" alt="git pull">
             </div>
             </div>
           </td>
         </tr>
       </table>
     </main>
-    <div class="space">
-      (Spaceholder for Footer)
-      
-          </div>
           <footer>
             <div class="nav">
               <ul>

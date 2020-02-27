@@ -265,6 +265,7 @@ td {
   max-width: 20vw;
   height: 20vh;
   text-align: left;
+  padding-left: 2vw;
 }
 
 .show,
@@ -378,3 +379,104 @@ td {
 #akkordeon10:target .inhalt {
   display: block;
 }
+
+#akkordeon11:not(:target) .inhalt,
+#akkordeon11:not(:target) .hide,
+#akkordeon11:target .show {
+  display: none;
+}
+#akkordeon11:target .inhalt {
+  display: block;
+}
+
+#akkordeon11:not(:target) .inhalt,
+#akkordeon11:not(:target) .hide,
+#akkordeon11:target .show {
+  display: none;
+}
+#akkordeon11:target .inhalt {
+  display: block;
+}
+
+#akkordeon12:not(:target) .inhalt,
+#akkordeon12:not(:target) .hide,
+#akkordeon12:target .show {
+  display: none;
+}
+#akkordeon12:target .inhalt {
+  display: block;
+}
+
+#akkordeon13:not(:target) .inhalt,
+#akkordeon13:not(:target) .hide,
+#akkordeon13:target .show {
+  display: none;
+}
+#akkordeon13:target .inhalt {
+  display: block;
+}
+
+
+#akkordeon14:not(:target) .inhalt,
+#akkordeon14:not(:target) .hide,
+#akkordeon14:target .show {
+  display: none;
+}
+#akkordeon14:target .inhalt {
+  display: block;
+}
+
+#akkordeon15:not(:target) .inhalt,
+#akkordeon15:not(:target) .hide,
+#akkordeon15:target .show {
+  display: none;
+}
+#akkordeon15:target .inhalt {
+  display: block;
+}
+
+#akkordeon16:not(:target) .inhalt,
+#akkordeon16:not(:target) .hide,
+#akkordeon16:target .show {
+  display: none;
+}
+#akkordeon16:target .inhalt {
+  display: block;
+}
+
+#akkordeon17:not(:target) .inhalt,
+#akkordeon17:not(:target) .hide,
+#akkordeon17:target .show {
+  display: none;
+}
+#akkordeon17:target .inhalt {
+  display: block;
+}
+
+#akkordeon17b:not(:target) .inhalt,
+#akkordeon17b:not(:target) .hide,
+#akkordeon17b:target .show {
+  display: none;
+}
+#akkordeon17b:target .inhalt {
+  display: block;
+}
+
+#akkordeon18:not(:target) .inhalt,
+#akkordeon18:not(:target) .hide,
+#akkordeon18:target .show {
+  display: none;
+}
+#akkordeon18:target .inhalt {
+  display: block;
+}
+
+#akkordeon19:not(:target) .inhalt,
+#akkordeon19:not(:target) .hide,
+#akkordeon19:target .show {
+  display: none;
+}
+#akkordeon19:target .inhalt {
+  display: block;
+}
+
