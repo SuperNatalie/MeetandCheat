@@ -14,6 +14,7 @@ main {
 }
 
 h1,
+h2,
 h3,
 p,
 li,
@@ -480,3 +481,20 @@ td {
   display: block;
 }
 
+#akkordeon20:not(:target) .inhalt,
+#akkordeon20:not(:target) .hide,
+#akkordeon20:target .show {
+  display: none;
+}
+#akkordeon20:target .inhalt {
+  display: block;
+}
+
+#akkordeon21:not(:target) .inhalt,
+#akkordeon21:not(:target) .hide,
+#akkordeon21:target .show {
+  display: none;
+}
+#akkordeon21:target .inhalt {
+  display: block;
+}
