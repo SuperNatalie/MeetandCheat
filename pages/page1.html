@@ -27,7 +27,13 @@
     <main>
       <h3>Terminal Basics</h3>
       <p>
-        In Linux-Betriebssystemen könnt ihr sehr viel sehr einfach mit
+        Das Terminal von OS
+          X ist für die Ein- und Ausgabe zuständig. Die Verarbeitung der Befehle
+          übernimmt die sogenannte „Shell“, die beim Aufrufen des Terminals
+          automatisch gestartet wird. Letzten Endes ist die Shell vergleichbar
+          mit dem Finder von OS X – also eine Art Basisprogramm, das die Befehle
+          zur Bedienung des Computers bereitstellt, sie weiterleitet und
+          gegebenenfalls andere Programme startet. In Linux-Betriebssystemen könnt ihr sehr viel sehr einfach mit
         Terminal-Befehlen erledigen. Auch wenn das auf den ersten Blick sehr
         „nerdig“ und ungewohnt wirken sollte.
       </p>
@@ -43,7 +49,7 @@
       </p>
       <table>
         <tr>
-          <th id="anker1">Command</th>
+          <th>Command</th>
           <th>Description</th>
           <th>Gif</th>
         </tr>
@@ -53,7 +59,18 @@
             Print Working Directory - Zeigt das Verzeichnis an, in dem du dich
             gerade befindest.
           </td>
-          <td>Gif...</td>
+          <td>
+            <div id="akkordeon1">
+              <id="anker1"></id>
+              <a class="show" href="#akkordeon1">Click to show the gif</a
+              ><a class="hide" href="#anker1">ausblenden</a>
+
+              <div class="inhalt">
+                <h3>Command pwd</h3>
+                <img src="../assets/img/12_pwd.gif" />
+              </div>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>ls</td>
@@ -62,8 +79,9 @@
             angezeigt
           </td>
           <td>
-            <div id="akkordeon">
-              <a class="show" href="#akkordeon">Click to show the gif</a
+            <div id="akkordeon2">
+              <id="anker1"></id>
+              <a class="show" href="#akkordeon2">Click to show the gif</a
               ><a class="hide" href="#anker1">ausblenden</a>
 
               <div class="inhalt">
@@ -74,44 +92,123 @@
           </td>
         </tr>
         <tr>
-          <td>3</td>
-          <td>3b</td>
-          <td>3c</td>
+          <td>cd</td>
+          <td>Verzeichnis wechseln</td>
+          <td>
+            <div id="akkordeon3">
+              <id="anker1"></id>
+              <a class="show" href="#akkordeon3">Click to show the gif</a
+              ><a class="hide" href="#anker1">ausblenden</a>
+              <div class="inhalt">
+                <h3>Comman ls</h3>
+                <img src="../assets/img/02_cd.gif" />
+              </div>
+            </div>
+          </td>
         </tr>
         <tr>
-          <td>4</td>
-          <td>4b</td>
-          <td>4c</td>
+          <td>mv</td>
+          <td>Eine Datei verschieben oder umbenennen</td>
+          <td>
+            <div id="akkordeon4">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon4">Click to show the gif</a
+                ><a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command mw</h3>  
+            <img src="" alt="../assets/img/04_mv.gif">
+        </div>
+        </div>
+        </td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>5b</td>
-          <td>5c</td>
+          <td>rm</td>
+          <td>Dateien und Verzeichnisse löschen</td>
+          <td>
+            <div id="akkordeon5">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon5">Click to show the gif</a
+                ><a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command rm</h3>   
+            <img src="../assets/img/06_rm.gif" alt="rm">
+        </div>
+        </div>
+        </td>
         </tr>
         <tr>
-          <td>6</td>
-          <td>6b</td>
-          <td>6c</td>
+          <td>kill</td>
+          <td>Einen Prozess sofort beenden</td>
+          <td>
+            <div id="akkordeon6">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon6">Click to show the gif</a
+                ><a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command kill</h3>   
+            <img src="../assets/img/09_kill.gif" alt="kill">
+        </div>
+        </div>
+        </td>
         </tr>
         <tr>
-          <td>7</td>
-          <td>7b</td>
-          <td>7c</td>
+          <td>man</td>
+          <td>Systemhandbuch (manual oder manpage) zu einem Befehl, einer Anwendung oder Datei</td>
+          <td>
+            <div id="akkordeon7">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon7">Click to show the gif</a
+                ><a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command man</h3>   
+            <img src="../assets/img/10_man.gif" alt="man"></td>
+        </div>
+        </div>
         </tr>
         <tr>
-          <td>8</td>
-          <td>8b</td>
-          <td>8c</td>
+          <td>sudo</td>
+          <td>Einen Befehl als Admin ausführen</td>
+          <td>
+            <div id="akkordeon8">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon8">Click to show the gif</a>
+                <a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command sudo</h3>   
+            <img src="../assets/img/11_sudo.gif" alt="sudo">
+            </div>
+            </div>
+            </td>
         </tr>
         <tr>
-          <td>9</td>
-          <td>9b</td>
-          <td>9c</td>
+          <td>date</td>
+          <td>Zeigt das aktuelle Datum und die Uhrzeit an</td>
+          <td>
+            <div id="akkordeon9">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon9">Click to show the gif</a>
+                <a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command date</h3>   
+            <img src="../assets/img/07_date.gif" alt="date">
+            </div>
+            </div>
+        </td>
         </tr>
         <tr>
-          <td>10</td>
-          <td>10a</td>
-          <td>10b</td>
+          <td>clear</td>
+          <td>Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist</td>
+          <td>
+            <div id="akkordeon10">
+                <id="anker1"></id>
+                <a class="show" href="#akkordeon10">Click to show the gif</a>
+                <a class="hide" href="#anker1">ausblenden</a>
+            <div class="inhalt">
+                  <h3>Command clear</h3>   
+            <img src="../assets/img/08_clear.gif" alt="clear">
+            </div>
+            </div>
+            </td>
         </tr>
       </table>
     </main>
