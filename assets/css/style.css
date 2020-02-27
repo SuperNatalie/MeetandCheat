@@ -79,7 +79,7 @@ h1 {
 }
 
 .nav {
-  background-color: rgb(53, 57, 92);
+  background-color: 	rgb(74,112,139);
   max-height: 8vh;
   width: 100vw;
   transform: translateZ(1);
@@ -258,6 +258,8 @@ footer {
 
 /*Css für Akkordeon*/
 
+
+
 #akkordeon:not(:target) .inhalt,
 #akkordeon:not(:target) .hide,
 #akkordeon:target .show {
@@ -269,10 +271,12 @@ footer {
 
 td {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
-  padding: 20px 20px 1px;
+  padding: 1px 1px 10px;
   margin: 0px 0px 10px;
   max-width: 20vw;
   height: 20vh;
+  text-align: left;
+
 }
 
 .show,
