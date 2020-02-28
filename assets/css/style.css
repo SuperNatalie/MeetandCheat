@@ -38,12 +38,8 @@ td {
   line-height: 2.8vh;
 }
 
-.panel p {
-  color: gray; 
-}
-
 .choice p {
-  color:lightgrey;
+  color: lightgrey;
 }
 
 #orange {
@@ -51,7 +47,6 @@ td {
   font-weight: bolder;
   text-transform: uppercase;
 }
-
 
 .panel h3 {
   color: white;
@@ -428,7 +423,6 @@ td {
 #akkordeon13:target .inhalt {
   display: block;
 }
-
 
 #akkordeon14:not(:target) .inhalt,
 #akkordeon14:not(:target) .hide,
