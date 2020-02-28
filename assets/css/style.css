@@ -32,6 +32,16 @@ td {
   font-size: 2vh;
   line-height: 3.5vh;
 }
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+p a:hover {
+  color: orange;
+}
+
 .panel h3,
 .panel p {
   text-align: center;
@@ -504,3 +514,41 @@ td {
 #akkordeon21:target .inhalt {
   display: block;
 }
+
+----/* CSS für Team/über uns*/
+.section p:first-of-type {
+  font-size: 30px;
+  color: rgb(255, 133, 2);
+}
+div p {
+  line-height: 80%;
+  font-size: 1em;
+  text-align: center;
+}
+.section div img {
+  width: 20vh;
+  box-shadow: 0 0 0.5vh rgb(255, 133, 2);
+}
+.section div {
+  display: inline-block;
+  width: 180px;
+  margin-top: 10vh;
+  margin-left: 10%;
+  padding-inline-end: 2vh;
+}
+.section img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.section img {
+  transform: scale(1);
+  transition-duration: 0.3s;
+}
+
+/* CSS für Team/über uns ende*/
+/* CSS für Impressum */
+hr {
+  border: 1px solid rgb(255, 133, 2);
+}
+/* CSS für Impressum ende*/
